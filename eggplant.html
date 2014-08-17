@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>The American Eggplant Society</title>
+		<meta name="description" content="The American Eggplant Society">
+		<meta name="author" content="Eddie Smith">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1>The American Eggplant Society</h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+				</p>
+			</nav>
+
+			<div>
+
+				<p>
+					Welcome to our site. Unfortunately, it is still under constrcution.
+				</p>
+				<p>
+					We last worked on it on this date:
+					<script>
+						document.write(document.lastModified);
+					</script>
+				</p>
+				<h2>Event Test</h2>
+				<p>
+					<button type="button" onclick="alert('You clicked the button')">
+						Click me !
+					</button>
+				</p>
+				<p>
+					<script type="text/javascript">
+						now = new Date();
+						localtime = now.toString();
+						utctime = now.toGMTString();
+						document.write("<stong>Local Time:</strong>" + localtime + "<br></br>");
+						document.write("<stong>UTC Time:</strong>" + utctime);
+					</script>
+				</p>
+				<p>
+					<script type="text/javascript">
+						now = new Date();
+						hours = now.getHours();
+						mins = now.getMinutes();
+						secs = now.getSeconds();
+						document.write("<h1>" + hours + ":" + mins + ":" + secs + "</h1>");
+					</script>
+				</p>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Copyright  by Eddie Smith
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
